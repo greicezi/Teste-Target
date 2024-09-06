@@ -1,9 +1,9 @@
-INDICE = 13
+INDICE = 12
 SOMA = 0
-K = 0
+K = 1
 
 while K < INDICE:
-    K += 1
-    SOMA += K
+    K = K + 1
+    SOMA = SOMA + K
 
 print(SOMA)
